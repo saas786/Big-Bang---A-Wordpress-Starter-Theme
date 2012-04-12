@@ -1,0 +1,34 @@
+#slider_image_meta {
+	
+}
+
+table.meta-form-table {
+	width: 90%;
+}
+
+table.meta-form-table th,
+table.meta-form-table td {
+	vertical-align: top;
+}
+
+table.meta-form-table .left {
+	width: 30%;
+}
+
+table.meta-form-table .right {
+	width: 60%;
+}
+
+table.meta-form-table input,
+table.meta-form-table textarea {
+	width: 95%;
+}
+
+table.meta-form-table table textarea {
+	min-height: 100px;
+}
+
+/* WP List Table Slider Images */
+.wp-list-table .column-thumbnail {
+	width: 120px;
+}

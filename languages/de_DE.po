@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:83
+#@ big_bang
+msgid "The Main Menu"
+msgstr ""
+
+#: functions.php:84
+#@ big_bang
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:124
+#@ big_bang
+msgid "Big Bang - A Wordpress Starter Theme"
+msgstr ""
+
+#: functions.php:134
+#@ big_bang
+msgid "Sidebar 1"
+msgstr ""
+
+#: functions.php:135
+#@ big_bang
+msgid "The first (primary) sidebar"
+msgstr ""
+
+#: functions.php:197
+#@ big_bang
+msgctxt "post type general name"
+msgid "Custom Types"
+msgstr ""
+
+#: 404.php:3
+#@ big_bang
+msgid "404 Not found"
+msgstr ""
+
+#: 404.php:4
+#@ big_bang
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: functions.php:198
+#@ big_bang
+msgctxt "post type singular name"
+msgid "Custom Post"
+msgstr ""
+
+#: functions.php:199
+#@ big_bang
+msgctxt "custom post type item"
+msgid "Add New"
+msgstr ""
+
+#: functions.php:200
+#@ big_bang
+msgid "Add New Custom Type"
+msgstr ""
+
+#: functions.php:201
+#@ big_bang
+msgid "All Custom Types"
+msgstr ""
+
+#: functions.php:202
+#@ big_bang
+msgid "Edit"
+msgstr ""
+
+#: functions.php:203
+#@ big_bang
+msgid "Edit Custom Type"
+msgstr ""
+
+#: functions.php:204
+#@ big_bang
+msgid "New Custom Type"
+msgstr ""
+
+#: functions.php:205
+#@ big_bang
+msgid "View Custom Type"
+msgstr ""
+
+#: functions.php:206
+#@ big_bang
+msgid "Search Custom Post Type"
+msgstr ""
+
+#: functions.php:207
+#@ big_bang
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: functions.php:208
+#@ big_bang
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: functions.php:211
+#@ big_bang
+msgid "This is an example custom post type."
+msgstr ""
+
+#: functions.php:237
+#@ big_bang
+msgid "Custom Categories"
+msgstr ""
+
+#: functions.php:238
+#@ big_bang
+msgid "Custom Category"
+msgstr ""
+
+#: functions.php:239
+#@ big_bang
+msgid "Search Custom Categories"
+msgstr ""
+
+#: functions.php:240
+#@ big_bang
+msgid "All Custom Categories"
+msgstr ""
+
+#: functions.php:241
+#@ big_bang
+msgid "Parent Custom Category"
+msgstr ""
+
+#: functions.php:242
+#@ big_bang
+msgid "Parent Custom Category:"
+msgstr ""
+
+#: functions.php:243
+#@ big_bang
+msgid "Edit Custom Category"
+msgstr ""
+
+#: functions.php:244
+#@ big_bang
+msgid "Update Custom Category"
+msgstr ""
+
+#: functions.php:245
+#@ big_bang
+msgid "Add New Custom Category"
+msgstr ""
+
+#: functions.php:246
+#@ big_bang
+msgid "New Custom Category Name"
+msgstr ""
+
+#: functions.php:266
+#@ big_bang
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: functions.php:267
+#@ big_bang
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
