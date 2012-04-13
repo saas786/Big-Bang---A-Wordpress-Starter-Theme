@@ -1,6 +1,6 @@
 <?php
 /* In the functions.php is only the most used Wordpress Stuff.
- * F.e. Menus, jQuery, Modernizr, CSS body classes, Widgets.
+ * F.E. Menus, jQuery, Modernizr, CSS body classes, Widgets.
  * The other stuff is in seperate files.
  * Use it or not - it's your decision ;-)
  */
