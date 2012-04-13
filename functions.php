@@ -304,5 +304,5 @@ include_once('functions/custom_post_type_slider_image.php');
 
 
 
-
+//End of file functions.php
 ?>
