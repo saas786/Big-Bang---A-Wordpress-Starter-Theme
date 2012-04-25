@@ -17,8 +17,6 @@
 		
 		<!-- Default Stylesheets
 	  ================================================== -->
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/base.css">
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/skeleton.css">
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
 		
 		<!-- Favicons

@@ -58,12 +58,27 @@ add_action( 'init', 'bb_remove_headlinks' );
 /* !-------- ADD SCRIPTS ------------------- */
 /*------------------------------------------------------------ */
 function bb_add_scripts() {
-	//add jquery served with wordpress
-	wp_enqueue_script( 'jquery' );
-	// wanna have jquery from Google? Remove the slashes in front of the next 3 lines
-	//wp_deregister_script('jquery');
-	//wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js');
-	//wp_enqueue_script('jquery');
+	// Bulletproof jQuery
+	$url = 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js';
+	wp_deregister_script('jquery');
+
+	if (get_transient('google_jquery') == true) {	    
+		wp_register_script('jquery', $url, array(), '1.7.2');
+	} 
+	else {
+		$resp = wp_remote_head($url);
+		if (!is_wp_error($resp) && 200 == $resp['response']['code']) {
+			set_transient('google_jquery', true, 60 * 5);
+			wp_register_script('jquery', $url, array(), '1.7.2');
+		} 
+		else {
+			set_transient('google_jquery', false, 60 * 5);
+			$url = get_bloginfo('wpurl') . '/wp-includes/js/jquery/jquery.js';
+			wp_register_script('jquery', $url, array(), '1.7.2');
+		}
+	}
+	wp_enqueue_script('jquery');
+
 	
 	//add modernizr.js
 	wp_register_script('modernizr', BB_ASSETS_DIRECTORY.'js/modernizr-2.5.2.min.js', '', '1.0');
