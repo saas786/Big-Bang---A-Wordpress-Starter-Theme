@@ -1,0 +1,78 @@
+// Mixins.less
+// Snippets of reusable CSS to develope faster an keep code readable
+// --------------------------------------------------------------------------------------------
+
+
+// CSS3 Properties
+// --------------------------------------------------------------------------------------------
+
+// Border Radius
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+// Drop shadows
+.box-shadow(@shadow: 0 1px 3px rgba(0,0,0,.25)) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+
+// Background Size
+.background-size(@size: cover) {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Transitions
+.transition(@transition) {
+  -webkit-transition: @transition;
+     -moz-transition: @transition;
+      -ms-transition: @transition;
+       -o-transition: @transition;
+          transition: @transition;
+}
+
+// Transformations
+.rotate(@degrees) {
+  -webkit-transform: rotate(@degrees);
+     -moz-transform: rotate(@degrees);
+      -ms-transform: rotate(@degrees);
+       -o-transform: rotate(@degrees);
+          transform: rotate(@degrees);
+}
+.scale(@ratio) {
+  -webkit-transform: scale(@ratio);
+     -moz-transform: scale(@ratio);
+      -ms-transform: scale(@ratio);
+       -o-transform: scale(@ratio);
+          transform: scale(@ratio);
+}
+
+// Mixins.less
+// Snippets of reusable CSS to develope faster an keep code readable
+// --------------------------------------------------------------------------------------------
+
+
+// Fonts
+// --------------------------------------------------------------------------------------------
+.font_helv(@size: 15px, @color: @textColor, @weight: normal, @line-height: @baseLineHeight) {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: @size;
+  color: @color;
+  font-weight: @weight;
+  line-height: @line-height;
+}
+
+
+// General Mixins
+// --------------------------------------------------------------------------------------------
+.ti(@indent: 100%) {
+  text-indent: @indent;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -1,2 +1,4 @@
 *.sublime-project
 *.sublime-workspace
+functions/.DS_Store
+.gitignore
