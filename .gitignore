@@ -1,4 +1,8 @@
 *.sublime-project
 *.sublime-workspace
+<<<<<<< HEAD
 .DS_Store
+=======
+functions/.DS_Store
+>>>>>>> 05b84f59a106afcf2dc6759c699a4902e84a033e
 .gitignore
